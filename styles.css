@@ -57,6 +57,10 @@ main {
     .padded-mob {
         padding: 0 40px;
     }
+
+    .rounded-res {
+        border-radius: 0 !important;
+    }
 }
 
 main img, div, h1, h2, h3, p, hr {
@@ -121,12 +125,16 @@ li::marker {
     border-radius: 20px;
 }
 
+.rounded-res {
+    border-radius: 20px;
+}
+
 .padded {
     padding: 40px;
 }
 
 .padded-res {
-    padding: 40px;
+    padding: 40px 40px 0 40px;
 }
 
 .prep {
